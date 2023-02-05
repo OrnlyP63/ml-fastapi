@@ -16,4 +16,4 @@ uvicorn fast_api:app --reload
 streamlit run ui.py
 ```
 ## Result
-![](img/ui.jpg)
+![](img/ui02.jpg)

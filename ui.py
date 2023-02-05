@@ -4,9 +4,6 @@ import requests
 
 st.title("Basic Iris App 💻")
 
-# taking user inputs
-option = st.selectbox('Operatoin: ', ['add', 'sub', 'div', 'mul'])
-
 st.write('')
 st.write('Select the numbers from slider below: ⏬')
 sepal_length = st.slider('sepal_length', 4.3, 7.9, 0.1)
